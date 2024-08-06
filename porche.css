@@ -1,0 +1,617 @@
+*{
+    margin: 0;
+}
+@font-face {
+    font-family: "porsche";
+    src: url("IMGAGE/Porsche\ Font.ttf");
+}
+@font-face {
+    font-family:"porsche next";
+    src: url("IMGAGE/PorscheNext-SemiBold.otf");
+}
+#porsce{
+    font-family: "porsche";
+    font-size: 25px;
+    font-weight: 570;
+    letter-spacing: 3px;
+}
+.top-portion{
+    width: 100%;
+    min-height:82px ;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    display: flex;
+}
+.top-portion img{
+    width: 20px;
+    height: 20px;
+}
+/* .top-portion h3{
+    padding-left: 30px;
+} */
+.head{
+    height: 20px;
+    width: 56%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head button{
+    border: none;
+    height: 35px;
+    width: 100px; 
+}
+#h55{
+    padding-left: 20px;
+}
+#h55 button{
+    background-color: #fff;
+    font-family: "Quicksand", sans-serif;
+     font-size: 16px;
+     font-weight: 400;
+     display: flex;
+     align-items: center;
+     gap: 12px;
+}
+#h55 button:hover{
+    background-color: #b8b8b8;
+}
+.head div{
+    width: 100px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+     margin-left: 60px; 
+    border-radius: 5px;
+} 
+.background-image {
+    width: 100%;
+    height: 480px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+.first{
+    position: relative;
+}
+.for-absolute img{
+    width: 60px;
+    height: 70px;
+    
+}
+.for-absolute div{
+    display: flex;
+    align-items: center;
+}
+.right-txt img{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    right: 40px;
+    top: 66px;
+}
+.for-absolute,.right-txt h5{
+    font-size: 30px;
+}
+.for-absolute{
+    
+    font-family:"porsche next";
+    font-size: 25px;
+    position: absolute;
+    color: white;
+    bottom:31px;
+    left: 120px;
+}
+.for-absolute h5{
+    margin-left: 50px;
+}
+.for-absolute:hover{
+    color: rgb(198, 33, 33);
+}
+.right-txt:hover{
+    color: rgb(198, 33, 33);
+ 
+}
+.right-txt{
+    position: absolute;
+    color: white;
+    bottom: 100px;
+    right: 200px;
+    font-family:"porsche next";
+    font-size: 25px;
+}
+::-webkit-scrollbar{
+    display: none;
+} 
+.slide-mode{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    position: absolute;
+    /* left: 200px; */
+    top: 504px;
+}
+.slide-mode div{
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: #b8b8b8;
+    
+}
+.slide-mode div:hover{
+    background-color: rgb(156, 27, 27);
+}
+
+.Modals{
+    padding: 10px 0 10px ;
+    font-family: "porsche next";
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    color: rgb(44, 44, 44);
+    margin-left: 100px;
+
+}
+.car-grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.grid-text{
+    height: 82%;
+    width: 82%;
+    /* background-color: #383a3b5f; */
+     padding: 15px 20px 15px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    
+} 
+
+.cool{
+    width: 100%;
+  position: relative;
+
+}
+
+
+.text-1{
+    line-height: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    color: #fff;
+    font-size: 18px;
+}
+.text-1 h1{
+    font-size: 36px;
+}
+.text-1 h6{
+    font-size: 20px;
+    font-weight: 500;
+}
+.text-2{
+    display: flex;
+    gap: 8px;
+}
+.cool img{
+    width: 100%;
+    height: auto;
+}
+.one,.two{
+    color: #fff;
+
+   
+}
+.one {
+    border: none;
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #fff;
+    height: 60px;
+    width: 180px;
+    display: flex;
+    /* grid-template-columns: 1fr 10fr; */
+     align-items: center;
+     justify-content: center;
+     gap: 4px;
+}
+.one img{
+    width: 22px;
+}
+.one:hover{
+    background-color: rgb(211, 14, 14);
+    color: #fff;
+}
+.two:hover{
+    border-color:  rgb(211, 14, 14);
+    color:  rgb(211, 14, 14);
+}
+.two{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    height: 60px;
+    font-size: 18px;
+    display: flex;
+    width: 150px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.220);
+    border: 1px solid white;
+}
+.two img{
+    width: 20px;
+    height: 20px;
+}
+
+.sml{
+    font-family: "porsche next";
+    font-weight:100;
+    font-size: 15px;
+    width: 92%;
+    height: 50px;
+}
+.third-part{
+   margin-top: 50px;
+    width: 100%;
+    min-height: 320px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    
+}
+.sml{
+    margin-left: 100px;
+    padding: 20px 0 0 20px;
+}
+.panflex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.paaaan{
+    width:94% ;
+    height: 270px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    overflow-x: auto;
+    align-items: center;
+}
+.text-aline div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-aline button{
+    height: 50px;
+    width: 180px;
+}
+#btn{
+    width: 20px;
+}
+.white-car{
+    width: 87%;
+}
+.btn-alin button{
+    padding: 10px;
+    height: 60px;
+    width: 200px;
+    font-size: 17px;
+    font-weight: 300;
+    font-family: "porsche next";
+    background-color: #313639;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    color: #fff;
+}
+.find{
+    font-family: "porsche next";
+    font-size: 42px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 35px;
+}
+
+.forth{
+  
+    margin-top: 50px;
+    min-height: 380px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 0;
+}
+.grid-4{
+   
+   height: 266px;
+    object-fit: cover;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    overflow: hidden;
+    background-color: #a95959;
+}
+.grid-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#grid-4head{
+    font-family: "porsche next";
+    font-size: 40px;
+    padding: 30px 0 15px;
+    margin-left: 112px;
+}
+.chill{
+    position: relative;
+}
+
+
+.under{
+    position: absolute;
+    /* left: 10%; */
+     bottom: 10%;
+    color: #fff;
+     display: flex;
+    
+}
+.under h4{
+    font-size: 23px;
+    font-family: "porsche next";
+}
+.under h4:hover{
+    color: #D51010;
+}
+.under img{
+    width: 40px;
+    height: 40px;
+}
+#bring{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+.fith-part{
+    margin-top: 50px;
+     width: 100%; 
+    min-height: 500px;
+} 
+.fith-grid{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.social{
+    margin-left: 100px;
+    font-family: "porsche next";
+    font-size: 40px;
+}
+
+.sasa{
+    margin-top: 50px;
+   width: 85%;
+    display: grid;
+    grid-template-columns: repeat(6,195px);
+    grid-template-rows: repeat(3,195px);  
+    background-color: rgb(255, 255, 255);
+    gap: 8px;
+    
+    
+   
+}
+ .sasa img{
+    width: 100%;
+    height: 100%;
+
+}
+.sasa video{
+    width: 100%; 
+ 
+} 
+#im-1{
+    grid-column: 1 ;
+    grid-column-end: 3;
+    grid-row-start: 1 ;
+    grid-row-end: 3;
+}
+#vid-1{
+    grid-column-start: 3 ;
+    grid-column-end: 4 ;
+    grid-row-start: 1 ;
+    grid-row-end: 2;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    
+}
+#vid-2{
+    grid-column-start: 4 ;
+    grid-column-end: 5 ;
+    grid-row-start: 1 ;
+    grid-row-end: 2;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    
+}
+#im-2{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1 ;
+    grid-row-end: 3;
+}
+#im-3{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3 ;
+    grid-row-end: 4;
+}
+#vid-3{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3 ;
+    grid-row-end: 4;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+   
+}
+#vid-4{
+    grid-column-start: 3 ;
+    grid-column-end: 5;
+    grid-row-start: 2 ;
+    grid-row-end: 4;
+    display: flex;
+    align-items: center;
+     overflow: hidden; 
+   
+    
+}
+#im-4{
+    grid: 5 6 3 4;
+   
+     
+}
+#im-5{
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 3 ;
+    grid-row-end: 4;  
+}
+ .load{
+    margin-top: 30px;
+    position: absolute;
+    right: 100px;
+}
+.sixth{
+    margin-top: 60px;
+   
+    
+
+}
+.sisth img{
+    width:300px ;
+    height: 230px;
+    
+    
+}
+.sisth div{
+    display: flex;
+    align-items: center;
+}
+.sisth div:hover{
+    color: #c20b0b;
+    
+}
+.simg img{
+    width: 25px;
+    height: 25px;
+}
+.simg h4{
+    font-family: "porsche next";
+   
+}
+.discover{
+    margin-left: 100px;
+    font-family: "porsche next";
+    font-size: 40px;
+}
+.sixth-part{
+    padding: 30px;
+     width: 95%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+.seven{
+    padding: 100px;
+}
+.sevnth{
+     
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    
+    
+}
+.nadeem{
+    line-height: 50px;
+}
+.nadeem h4,h6{
+    font-family: "porsche next";
+    font-size: 17px;
+}
+.nadeem h4{
+    font-size: 20px;
+
+}
+
+
+
+.footer{
+    height: 300px;
+    /* min-height: 100px;  */
+    padding: 30px;
+    background-color: #191f20;
+   
+
+}
+
+.nnput{
+    height: 60px;
+   
+    display: flex;
+    gap: 10px;
+}
+.nnput select{
+    height: 60px;
+    width: 290px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgba(62, 62, 62, 0.874);
+    color: #e0e0e0e8;
+    font-family: "porsche next";
+    font-size: 18px;
+    outline: none;
+    border: none;
+}
+.foot-arng{
+    margin-left: 80px;
+    margin-right: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.footer h1{
+    font-family: "porsche next";
+    color: #fff;
+    font-size: 25px;
+}
+.links{
+    color: #fff;
+    font-family: "porsche next";
+}
